@@ -55,7 +55,8 @@ const RestaurantSignup = () => {
             <div>
                 <h3>Signup</h3>
                 <div className="input-wrapper">
-                    <input type="text" placeholder="Email id" className="input-field" value={email} onChange={(event)=>{setEmail(event.target.value)}} />
+                    <input type="text" placeholder="Email id" className="input-field" value={email} onChange={(event)=>{setEmail(event.target.value)}}
+                     />
                     {
                         error && !email && <span className="input-error">Please enter valid email</span>
                     }
