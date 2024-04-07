@@ -1,11 +1,11 @@
 'use client'
 import { useState } from "react"
-import RestaurantLogin from "../_components/restaurantLogin.jsx"
-import RestaurantSignup from "../_components/restaurantSignup.jsx"
+import RestaurantLogin from "../_components/RestaurantLogin.jsx"
+import RestaurantSignup from "../_components/RestaurantSignup.jsx"
 import RestaurantHeader from "../_components/RestaurantHeader.jsx"
 
 import './style.css'
-import RestaurantFooter from "../_components/RestaurantFooter.jsx"
+import Footer from "../_components/Footer.jsx"
 
 const Restaurant = () => {
 
@@ -24,7 +24,7 @@ const Restaurant = () => {
                     {login ? "Do not have account? Signup" : "Already have an account? Login"}
                 </button>
             </div>
-            <RestaurantFooter/>
+            <Footer/>
         </>
     )
 }
