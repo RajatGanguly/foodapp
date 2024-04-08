@@ -1,3 +1,47 @@
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-wrapper ul{
+  display: flex;
+}
+
+.header-wrapper ul li{
+  list-style-type: none;
+  padding: 5px;
+}
+
+.header-wrapper ul li button{
+  background-color: transparent;
+  border: none;
+  color: blueviolet;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header-wrapper ul li a{
+  text-decoration: none;
+}
+
+.footer-wrapper{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
 .input-wrapper{
   margin: 10px;
 }
@@ -30,4 +74,18 @@
   padding: 8px;
   color: red;
   font-size: 12px;
+}
+
+table, th, td{
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+table td button{
+  margin: 5px;
+}
+
+table img{
+  width: 80px;
 }
